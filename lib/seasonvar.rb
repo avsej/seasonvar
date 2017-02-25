@@ -1,5 +1,11 @@
-require "seasonvar/version"
+require 'json'
+require 'logger'
+require 'faraday'
+require 'time'
+require 'uri'
 
-module Seasonvar
-  # Your code goes here...
-end
+module Seasonvar; end
+
+require 'seasonvar/version'
+require 'seasonvar/request_result'
+require 'seasonvar/client'
